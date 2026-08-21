@@ -1,0 +1,13 @@
+{
+  "name": "bun-gvs-poc-parent",
+  "version": "1.0.0",
+  "description": "Minimal parent package reproducing GVS isolated linker bug with oxlint typeAware",
+  "type": "module",
+  "exports": {
+    "./oxlint": "./oxlint.config.mjs"
+  },
+  "dependencies": {
+    "oxlint": "^1.79.0",
+    "oxlint-tsgolint": "^7.0.2001"
+  }
+}
